@@ -16,22 +16,24 @@
 </head>
 
 <body>
-  <!-- SAYT HEADER -->
+  <!-- SITE HEADER -->
   <header class="site-header">
     <a href="index.html">
       <img src="img/logo.svg" alt="Akademnashr logo" width="227" height="60">
     </a>
 
-    <nav>
-      <ul class="sitenav-list">
-        <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-        <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-        <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-        <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-      </ul>
-    </nav>
-
-    <a class="main-link" href="#">Ro'yxatdan o'tish</a>
+    <!-- SITENAV -->
+    <div class="site-header-actions">
+      <nav>
+        <ul class="sitenav-list">
+          <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+          <li><a class="sitenav-link" href="#">Kitoblar</a></li>
+          <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
+          <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+        </ul>
+      </nav>
+      <a class="main-link" href="#">Ro'yxatdan o'tish</a>
+    </div>
   </header>
 
   <main>
@@ -49,7 +51,6 @@
 
       <img class="hero-img" src="img/python-book.jpg" alt="Pythonda dasturlash asoslari kitobi" width="510" height="510"
         srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
-
     </section>
 
 
@@ -59,29 +60,32 @@
     <section class="features">
       <hr class="orange-line">
       <h2 class="features-heading">Nega aynan Akademnashr?</h2>
-      <ul>
-        <div class="feature-icon-wrapper">
-          <img src="img/icon-cursor-click.svg" alt="" width="56" height="56">
-        </div>
+
+      <ul class="features-list">
         <li class="feature">
-          <h3 class="feature-title">Oson buyurtma qilish</h3>
-          <p class="feature-info">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+          <div class="feature-icon-wrapper">
+            <img src="img/icon-cursor-click.svg" alt="" width="56" height="56">
+          </div>
+            <h3 class="feature-title">Oson buyurtma qilish</h3>
+            <p class="feature-info">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
         </li>
-        <div class="feature-icon-wrapper">
-          <img src="img/icon-sparkles.svg" alt="" width="56" height="56">
-        </div>
+
         <li class="feature">
-          <h3 class="feature-title">Eng sara kitoblar</h3>
-          <p class="feature-info">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+          <div class="feature-icon-wrapper">
+            <img src="img/icon-sparkles.svg" alt="" width="56" height="56">
+          </div>
+            <h3 class="feature-title">Eng sara kitoblar</h3>
+            <p class="feature-info">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
         </li>
-        <div class="feature-icon-wrapper">
-          <img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56">
-        </div>
+
         <li class="feature">
-          <h3 class="feature-title">Tez yetkazib berish</h3>
-          <p class="feature-info">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib
-            beriladi.
-          </p>
+          <div class="feature-icon-wrapper">
+            <img src="img/icon-lightning-bolt.svg" alt="" width="56" height="56">
+          </div>
+            <h3 class="feature-title">Tez yetkazib berish</h3>
+            <p class="feature-info">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib
+              beriladi.
+            </p>
         </li>
       </ul>
     </section>
@@ -101,19 +105,19 @@
 
       <img class="promo-img" src="img/sale-img.jpg" alt="Kitoblar to'plami ustma-ust joylangan" width="440" height="440"
         srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
-
     </section>
   </main>
 
 
   <!-- SITE FOOTER -->
   <footer class="site-footer">
-    <div>
+    <div class="site-footer-top">
       <a href="index.html">
         <img src="img/logo.svg" alt="Akademnashr logo" width="227" height="60">
       </a>
+
       <!-- IJTIMOIY TARMOQLAR -->
-      <ul>
+      <ul class="site-footer-socials">
         <li>
           <a href="https://t.me/Akademnashr" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
@@ -145,7 +149,7 @@
     <hr class="site-footer-divider">
 
     <!-- LINKLAR -->
-    <div>
+    <div class="site-footer-bottom">
       <ul class="site-footer-links">
         <li><a href="#">Bosh sahifa</a></li>
         <li><a href="#">Kitoblar</a></li>
@@ -174,7 +178,6 @@
       </ul>
     </div>
   </footer>
-
 
 
 </body>
