@@ -37,6 +37,11 @@ body {
 }
 
 
+.logo-link img {
+  display: block;
+}
+
+
 .site-header-actions {
   display: flex;
   align-items: center;
