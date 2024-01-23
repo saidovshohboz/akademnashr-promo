@@ -165,6 +165,7 @@ body {
 
 
 .hero-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -202,6 +203,9 @@ body {
 
 
 .hero-img {
+  position: absolute;
+  top: -40px;
+  right: 20px;
   width: 510px;
   height: 510px;
   border-radius: 8px;
@@ -278,6 +282,7 @@ body {
 
 
 .promo-inner {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -324,6 +329,9 @@ body {
 
 
 .promo-img {
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
   width: 440px;
   height: 440px;
   border-radius: 12px;
